@@ -1,3 +1,4 @@
+import 'package:book_ly/core/utils/styles.dart';
 import 'package:book_ly/features/home/presentation/widgets/custom_book_details_appbar.dart';
 import 'package:book_ly/features/home/presentation/widgets/custom_book_image.dart';
 import 'package:flutter/material.dart';
@@ -14,8 +15,24 @@ class BookDetailsViewBody extends StatelessWidget {
         children: [
           const CustomBookDetailsAppBar(),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: width * .17),
+            padding: EdgeInsets.symmetric(horizontal: width * .2),
             child: const CustomBookImage(),
+          ),
+          const SizedBox(height: 43),
+          const Text(
+            "The Jungle Book",
+            style: AppStyles.textStyle30,
+          ),
+          const SizedBox(height: 6),
+          Opacity(
+            opacity: 0.7,
+            child: Text(
+              "Rudyard Kipling",
+              style: AppStyles.textStyle18.copyWith(
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
           ),
         ],
       ),
