@@ -1,7 +1,7 @@
-import 'package:book_ly/core/utils/styles.dart';
-import 'package:book_ly/features/home/presentation/widgets/best_seller_list_view.dart';
-import 'package:book_ly/features/home/presentation/widgets/custom_app_bar.dart';
-import 'package:book_ly/features/home/presentation/widgets/featured_books_list_view.dart';
+import '../../../../core/utils/styles.dart';
+import 'best_seller_list_view.dart';
+import 'custom_app_bar.dart';
+import 'featured_books_list_view.dart';
 import 'package:flutter/material.dart';
 
 class HomeViewBody extends StatelessWidget {

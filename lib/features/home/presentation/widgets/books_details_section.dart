@@ -1,7 +1,7 @@
-import 'package:book_ly/core/utils/styles.dart';
-import 'package:book_ly/features/home/presentation/widgets/book_rating.dart';
-import 'package:book_ly/features/home/presentation/widgets/books_action.dart';
-import 'package:book_ly/features/home/presentation/widgets/custom_book_image.dart';
+import '../../../../core/utils/styles.dart';
+import 'book_rating.dart';
+import 'books_action.dart';
+import 'custom_book_image.dart';
 import 'package:flutter/material.dart';
 
 class BooksDetailsSection extends StatelessWidget {

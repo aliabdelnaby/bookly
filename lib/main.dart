@@ -1,5 +1,5 @@
-import 'package:book_ly/constants.dart';
-import 'package:book_ly/core/utils/app_router.dart';
+import 'constants.dart';
+import 'core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

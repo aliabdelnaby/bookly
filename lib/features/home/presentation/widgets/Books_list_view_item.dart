@@ -1,13 +1,13 @@
-import 'package:book_ly/constants.dart';
-import 'package:book_ly/core/utils/app_router.dart';
-import 'package:book_ly/core/utils/assets.dart';
-import 'package:book_ly/core/utils/styles.dart';
-import 'package:book_ly/features/home/presentation/widgets/book_rating.dart';
+import '../../../../constants.dart';
+import '../../../../core/utils/app_router.dart';
+import '../../../../core/utils/assets.dart';
+import '../../../../core/utils/styles.dart';
+import 'book_rating.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class BestSellerListViewItem extends StatelessWidget {
-  const BestSellerListViewItem({super.key});
+class BooksListViewItem extends StatelessWidget {
+  const BooksListViewItem({super.key});
 
   @override
   Widget build(BuildContext context) {
