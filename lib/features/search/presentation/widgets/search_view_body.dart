@@ -1,5 +1,5 @@
 import '../../../../core/utils/styles.dart';
-import '../../../home/presentation/widgets/Books_list_view_item.dart';
+import '../../../home/presentation/widgets/books_list_view_item.dart';
 import 'custom_search_text_text_field.dart';
 import 'package:flutter/material.dart';
 
