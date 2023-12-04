@@ -15,7 +15,10 @@ class BooksDetailsSection extends StatelessWidget {
       children: [
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * .2),
-          child: const CustomBookImage(),
+          child: const CustomBookImage(
+            imageUrl:
+                "https://rockcontent.com/wp-content/uploads/2022/06/parts-url-1024x538.png.webp",
+          ),
         ),
         const SizedBox(height: 43),
         const Text(
